@@ -24,7 +24,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         	.and().ignoring().antMatchers("/arpensp/**")
         	.and().ignoring().antMatchers("/cadesp/**")
         	.and().ignoring().antMatchers("/caged/**")
-        	.and().ignoring().antMatchers("/jucesp/**");
+        	.and().ignoring().antMatchers("/jucesp/**")
+        	.and().ignoring().antMatchers("/sivec/**");
     }
 	
 }

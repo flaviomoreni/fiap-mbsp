@@ -469,11 +469,11 @@ function abrirModal(){
 			   				
 			   				<ul class="dropdown-menu">
 								<li>
-			   					<a href="http://intinfo.tj.sp.gov.br/vec/menu?op=./pfisica_rg.view">Por RG</a></li>
+			   					<a href="pagina3-pesquisa-rg.html">Por RG</a></li>
 			   					<li>
-			   					<a href="http://intinfo.tj.sp.gov.br/vec/menu?op=./pfisica_fonetica_nome.view">Por Nome</a></li>
+			   					<a href="pagina4-pesquisa-nome.html">Por Nome</a></li>
 			   					<li>
-			   					<a href="http://intinfo.tj.sp.gov.br/vec/menu?op=./pfisica_matricula_sap.view">Matrícula SAP</a></li>
+			   					<a href="pagina5-pesquisa-sap.html">Matrícula SAP</a></li>
 			   				</ul>
 			   			</li>
 			   				<li>
@@ -911,7 +911,7 @@ function abrirModal(){
 	}
 </script>
 
-<form name="pesquisarPessoaFisicaForm" method="post" action="http://intinfo.tj.sp.gov.br/vec/pesq_pf.do" id="pesq_pf">
+<form name="pesquisarPessoaFisicaForm" method="get" action="pagina6-resultado.html" id="pesq_pf">
 	<input type="hidden" name="telaPesquisaPorProcesso" value="1">
 	<input type="hidden" name="pesqPessoasFisicas" value="">
 	<input type="hidden" name="voltar" value="">
@@ -953,7 +953,7 @@ function abrirModal(){
 			<div class="col-md-8 top-buffer10 col-md-offset-2 text-right">
 				<input type="hidden" name="tipoPesq" value="1">
 				<input type="hidden" name="pesquisaRealizada" value="pfisica_rg.view">
-				<input type="button" class="btn btn-sm btn-oldstyle" name="procura" value="Pesquisar" id="procurar" onclick="javascript:submete_rg();">
+				<input type="button" class="btn btn-sm btn-oldstyle" name="procura" value="Pesquisar" id="procurar" onclick="location.href='pagina6-resultado.html';">
 			</div>
 		</div>
 		<div class="row top-buffer15">
