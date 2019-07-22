@@ -119,7 +119,7 @@
         </div>
 
         <div id="menu">
-            <form id="j_idt12" name="j_idt12" method="post" action="https://caged.mte.gov.br/caged/paginas/basedocumentos/empregador/TL_CAGED_017_ResultadoPesquisarEmpresaCAGED.xhtml" enctype="application/x-www-form-urlencoded">
+            <form id="j_idt12" name="j_idt12" method="get" action="https://caged.mte.gov.br/caged/paginas/basedocumentos/empregador/TL_CAGED_017_ResultadoPesquisarEmpresaCAGED.xhtml" enctype="application/x-www-form-urlencoded">
                 <input type="hidden" name="j_idt12" value="j_idt12">
 
                 <ul id="nav">
@@ -175,7 +175,7 @@
 
             </div>
            
-            <form id="formPesquisarEmpresaCAGED" name="formPesquisarEmpresaCAGED" method="post" action="pagina8-dados-empresa.html" enctype="application/x-www-form-urlencoded" onsubmit="return preventDoubleSubmit();">
+            <form id="formPesquisarEmpresaCAGED" name="formPesquisarEmpresaCAGED" method="get" action="pagina8-dados-empresa.html" enctype="application/x-www-form-urlencoded" onsubmit="return preventDoubleSubmit();">
                 <input type="hidden" name="formPesquisarEmpresaCAGED" value="formPesquisarEmpresaCAGED">
 
                 <!--&lt;dtp2:preventDoubleSubmit enabled="true" /&gt;-->
@@ -205,7 +205,7 @@
                 <br>
                 <br>
                 <div class="botoes">
-                    <input id="formPesquisarEmpresaCAGED:btConsultar" type="submit" name="formPesquisarEmpresaCAGED:btConsultar" value="Consultar" onclick="setShowWaitPopup(true);">&nbsp;&nbsp;
+                    <input id="formPesquisarEmpresaCAGED:btConsultar" type="submit" name="formPesquisarEmpresaCAGED:btConsultar" value="Consultar" onclick="location.href='pagina8-dados-empresa.html';">&nbsp;&nbsp;
                     <input id="formPesquisarEmpresaCAGED:btLimpar" type="button" name="formPesquisarEmpresaCAGED:btLimpar" value="Limpar">&nbsp;
                     <input id="formPesquisarEmpresaCAGED:btCancelar" type="submit" name="formPesquisarEmpresaCAGED:btCancelar" value="Cancelar">
                 </div>

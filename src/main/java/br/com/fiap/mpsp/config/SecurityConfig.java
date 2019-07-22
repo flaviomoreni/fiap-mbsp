@@ -19,7 +19,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Override
     public void configure(WebSecurity web) throws Exception {
-        web.ignoring().antMatchers("/arisp/**").and().ignoring().antMatchers("/arpensp/**");
+        web.
+        	ignoring().antMatchers("/arisp/**")
+        	.and().ignoring().antMatchers("/arpensp/**")
+        	.and().ignoring().antMatchers("/cadesp/**")
+        	.and().ignoring().antMatchers("/caged/**")
+        	.and().ignoring().antMatchers("/jucesp/**");
     }
 	
 }

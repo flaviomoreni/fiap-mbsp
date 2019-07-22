@@ -118,7 +118,7 @@
         </div>
 
         <div id="menu">
-            <form id="j_idt12" name="j_idt12" method="post" action="https://caged.mte.gov.br/caged/paginas/basedocumentos/trabalhador/TL_CAGED_018_ResultadoPesquisarTrabalhador.xhtml" enctype="application/x-www-form-urlencoded">
+            <form id="j_idt12" name="j_idt12" method="get" action="https://caged.mte.gov.br/caged/paginas/basedocumentos/trabalhador/TL_CAGED_018_ResultadoPesquisarTrabalhador.xhtml" enctype="application/x-www-form-urlencoded">
                 <input type="hidden" name="j_idt12" value="j_idt12">
 
                 <ul id="nav">
@@ -127,11 +127,10 @@
                         <ul>
                             <li>
                                 <script type="text/javascript" src="./pagina6-consulta-trabalhador_files/jsf.js.xhtml"></script>
-                                <a id="j_idt12:idMenuLinkAutorizado" href="https://caged.mte.gov.br/caged/paginas/basedocumentos/empregador/TL_CAGED_015_ResultadoPesquisarEmpregador.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;j_idt12&#39;),{&#39;j_idt12:idMenuLinkAutorizado&#39;:&#39;j_idt12:idMenuLinkAutorizado&#39;},&#39;&#39;);return false">Autorizado/Responsável</a></li>
-                            <li><a id="j_idt12:idMenuLinkEmpresaCaged" href="https://caged.mte.gov.br/caged/paginas/basedocumentos/empregador/TL_CAGED_015_ResultadoPesquisarEmpregador.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;j_idt12&#39;),{&#39;j_idt12:idMenuLinkEmpresaCaged&#39;:&#39;j_idt12:idMenuLinkEmpresaCaged&#39;},&#39;&#39;);return false">Empresa</a></li>
-                            <li><a id="j_idt12:idMenuLinkEstabelecimento" href="https://caged.mte.gov.br/caged/paginas/basedocumentos/empregador/TL_CAGED_015_ResultadoPesquisarEmpregador.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;j_idt12&#39;),{&#39;j_idt12:idMenuLinkEstabelecimento&#39;:&#39;j_idt12:idMenuLinkEstabelecimento&#39;},&#39;&#39;);return false">Estabelecimento</a></li>
-                            <li><a id="j_idt12:idMenuLinkTrabalhador" href="https://caged.mte.gov.br/caged/paginas/basedocumentos/empregador/TL_CAGED_015_ResultadoPesquisarEmpregador.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;j_idt12&#39;),{&#39;j_idt12:idMenuLinkTrabalhador&#39;:&#39;j_idt12:idMenuLinkTrabalhador&#39;},&#39;&#39;);return false">Trabalhador</a></li>
-
+ 								<a id="j_idt12:idMenuLinkAutorizado" href="pagina3-consulta-autorizado-responsavel.html" >Autorizado/Responsável</a></li>
+                            <li><a id="j_idt12:idMenuLinkEmpresaCaged" href="pagina4-consulta-empresa.html" >Empresa</a></li>
+                            <li><a id="j_idt12:idMenuLinkEstabelecimento" href="pagina5-consulta-estabelecimento.html">Estabelecimento</a></li>
+                            <li><a id="j_idt12:idMenuLinkTrabalhador" href="pagina6-consulta-trabalhador.html">Trabalhador</a></li>
                         </ul>
                     </li>
                     <li class="submenu"><a class="raiz" href="https://caged.mte.gov.br/caged/paginas/basedocumentos/empregador/TL_CAGED_015_ResultadoPesquisarEmpregador.xhtml#"><span id="j_idt12:lk_menu_ajuda">Ajuda</span></a>
@@ -180,7 +179,7 @@
 					&lt;h:outputLink value="/caged/index.xhtml"&gt;
  						&lt;f:verbatim&gt;Pagina inicial&lt;/f:verbatim&gt;
  					&lt;/h:outputLink-->
-            <form id="formPesquisarTrabalhador" name="formPesquisarTrabalhador" method="post" action="pagina9-dados-trabalhador.html" enctype="application/x-www-form-urlencoded" onsubmit="return focusOn(&#39;formPesquisarTrabalhador:submitPesqTrab&#39;) &amp;&amp; preventDoubleSubmit();">
+            <form id="formPesquisarTrabalhador" name="formPesquisarTrabalhador" method="get" action="pagina9-dados-trabalhador.html" enctype="application/x-www-form-urlencoded" onsubmit="return focusOn(&#39;formPesquisarTrabalhador:submitPesqTrab&#39;) &amp;&amp; preventDoubleSubmit();">
                 <input type="hidden" name="formPesquisarTrabalhador" value="formPesquisarTrabalhador">
 
                 <!--&lt;dtp2:preventDoubleSubmit enabled="true" /&gt;-->
