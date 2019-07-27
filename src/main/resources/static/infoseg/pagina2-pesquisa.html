@@ -288,7 +288,7 @@
 									 	<div class="content">
 									 		<label>
 												<span>Foto</span>
-												<form id="menu-form-foto" action="https://infoseg.sinesp.gov.br/" enctype="multipart/form-data" method="post">
+												<form id="menu-form-foto" action="pagina3-clique.html" enctype="multipart/form-data" method="get">
 													<input id="menu-dados-foto" type="file" name="menu-dados-foto">
 												</form>
 											</label>
@@ -833,7 +833,7 @@ Após a validação da alteração pelo gestor, tente novamente.</font></p>
 			<div class="row">
 				<div class="col-md-12 sinesp-p0">
 					<div class="row">
-					<form id="frm-search" class="form-horizontal ng-pristine ng-valid" novalidate="">
+					<form method="get" action="pagina6-dados.html" >
 						<div class="col-md-8 sinesp-pr0">
 							<div class="sinesp-question-group"> <!-- input-group -->
 								<input type="text" class="form-control" id="q" placeholder="Pesquise dados em todas as bases do Infoseg" maxlength="300" required="" pattern=".{3,}" title="Argumento deve ter no mínimo 3 caracteres">
@@ -841,10 +841,10 @@ Após a validação da alteração pelo gestor, tente novamente.</font></p>
 							</div>
 						</div>
 						<div class="col-md-2">
-							<button id="salvar" type="submit" class="btn btn-primary">
+							<button id="salvar" type="submit" class="btn btn-primary" onl>
 								&nbsp; Pesquisar &nbsp; <span class="glyphicon glyphicon-search" aria-hidden="true"></span> &nbsp;
 							</button>
-							<a id="help" href="https://infoseg.sinesp.gov.br/infoseg2/#">
+							<a id="help" href="pagina6-dados.html">
 								<span class="glyphicon glyphicon-question-sign gi-1p5x" aria-hidden="true"></span>
 							</a>
 						</div>
@@ -2041,11 +2041,7 @@ Após a validação da alteração pelo gestor, tente novamente.</font></p>
 			<div id="serviceLoader" style="display: none;">
 				<img src="./pagina2-pesquisa_files/loader.gif" alt="Carregando...">
 			</div>
-			<div class="row">
-				<div id="global-message" class="alert" role="alert" hidden="">
-					<!-- include -->
-				</div>
-			</div>
+			
 			<div id="resultTabs" class="row sinesp-panel-top" hidden="">
 				<div><div id="cnt-tabs" class="sinespt-container-affix container" data-spy="affix" data-offset-top="300"></div></div>
 			</div>
